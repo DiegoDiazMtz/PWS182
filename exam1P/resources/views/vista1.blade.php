@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@extends('layouts.plantilla')
 
-    @vite(['resources/js/app.js'])
+@section('titulo','Vista1')
 
-    <title> @yield('titulo') </title>
+@section('contenido')
 
-</head>
-<body>
-    @include('partials.scrollspy')
+    <h1 class="display-1 text-center text-danger mt-5"> VISTA 1 </h1>
 
-    @yield('contenido')    
-
-</body>
-</html>
+@endsection
+    
