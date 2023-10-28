@@ -41,12 +41,12 @@
                 <p class='text-danger fst-italic'> {{ $errors->first('txtEditorial') }} </p>
  
                 <label for="exampleInputEmail1" class="form-label mt-3 mx-3" style="font-family:'Times New Roman';">Email de Editorial:</label>
-                <input type="text" name="txtEmailEdit" class="form-control mb-5" value="{{old('txtEmailEdit')}}"> 
+                <input type="text" name="txtEmailEdit" class="form-control mb-2" value="{{old('txtEmailEdit')}}"> 
                 <p class='text-danger fst-italic'> {{ $errors->first('txtEmailEdit') }} </p>
   
             </div>
         
-            <button type="submit" class="btn btn-dark mb-4" style="font-family:'Times New Roman';">Enviar</button>
+            <button type="submit" class="btn btn-dark mb-4 mt-5" style="font-family:'Times New Roman';">Enviar</button>
 
         </div>
 
